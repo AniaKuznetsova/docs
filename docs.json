@@ -106,7 +106,7 @@
      "display": "simple"
    },
    "examples": {
-     "languages": ["python", "javascript"],
+     "languages": ["curl", "python", "javascript"],
      "defaults": "required"
    }
  }
