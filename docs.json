@@ -107,7 +107,7 @@
    },
    "examples": {
      "languages": ["curl", "python", "javascript"],
-     "defaults": "required"
+     "defaults": "all"
    }
  }
 
