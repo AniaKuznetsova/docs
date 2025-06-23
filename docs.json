@@ -43,12 +43,7 @@
               "api-reference/introduction"
             ]
           },
-                {
-        "group": "API",
-        "pages": [
-              "api-reference/introduction"
-            ]
-      },
+                
           {
             "group": "Endpoint Examples",
             "pages": [
