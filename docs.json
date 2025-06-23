@@ -43,6 +43,11 @@
               "api-reference/introduction"
             ]
           },
+
+                    {
+            "group": "API test",
+            "openapi": "openapi.json"
+          },
                 
           {
             "group": "Endpoint Examples",
@@ -100,11 +105,10 @@
       "linkedin": "https://linkedin.com/company/mintlify"
     }
   },
-
   
  "api": {
    "playground": {
-     "display": "none"
+     "display": "interactive"
    },
    "examples": {
      "languages": ["curl", "python", "javascript"],
