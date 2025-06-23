@@ -80,7 +80,13 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Plant"
-                }
+                },
+                
+      "example": {
+        "id": 101,
+        "name": "Aloe Vera",
+        "tag": "succulent"
+      }
               }
             }
           },
