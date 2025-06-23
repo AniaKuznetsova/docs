@@ -69,6 +69,12 @@
               "schema": {
                 "$ref": "#/components/schemas/NewPlant"
               },
+                
+      "example": {
+        "id": 101,
+        "name": "Aloe Vera",
+        "tag": "succulent"
+      }
 
           },
           "required": true
@@ -80,13 +86,7 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Plant"
-                },
-                
-      "example": {
-        "id": 101,
-        "name": "Aloe Vera",
-        "tag": "succulent"
-      }
+                }
               }
             }
           },
