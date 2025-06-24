@@ -110,10 +110,12 @@
         "properties": {
           "name": {
             "type": "string",
+            "description": 'User name',
             "example": "Charlie Brown"
           },
           "email": {
             "type": "string",
+            "description": 'User address',
             "example": "charlie@example.com"
           }
         },
