@@ -97,62 +97,6 @@
         }
       }
     },
-"paths": {
-    "/createplant": {
-      "post": {
-        "summary": "Create a new plant entry",
-        "operationId": "createPlant",
-        "requestBody": {
-          "required": true,
-          "content": {
-            "application/json": {
-              "schema": {
-                "type": "object",
-                "properties": {
-                  "name": {
-                    "type": "string",
-                    "example": "Onion"
-                  },
-                  "tag": {
-                    "type": "string",
-                    "example": "Alluvium"
-                  },
-                  "id": {
-                    "type": "integer",
-                    "example": 123
-                  }
-                },
-                "required": ["name", "tag", "id"]
-              }
-            }
-          }
-        },
-        "responses": {
-          "201": {
-            "description": "Created successfully"
-          },
-          "401": {
-            "description": "Unauthorized"
-          }
-        },
-        "security": [
-          {
-            "bearerAuth": []
-          }
-        ]
-      }
-    }
-  },
-  "components": {
-    "securitySchemes": {
-      "bearerAuth": {
-        "type": "http",
-        "scheme": "bearer",
-        "bearerFormat": "JWT"
-      }
-    }
-  }
-},
       
     "/plants/{id}": {
       "delete": {
