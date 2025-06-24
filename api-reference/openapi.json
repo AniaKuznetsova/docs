@@ -110,6 +110,7 @@
         "properties": {
           "name": {
             "type": "string",
+            "required": false,
             "description": 'User name',
             "example": "Charlie Brown"
           },

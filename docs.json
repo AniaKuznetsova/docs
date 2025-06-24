@@ -47,14 +47,15 @@
           {
             "group": "Endpoint Examples",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook",
+ 
               "api-reference/endpoint/get-users", 
               "api-reference/endpoint/create-user"
               
             ]
+          },
+          {
+           "group": "Petstore doc",
+          "openapi": "https://petstore3.swagger.io/api/v3/openapi.json"
           }
         ]
       }
