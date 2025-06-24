@@ -87,18 +87,21 @@
         "properties": {
           "id": {
             "type": "integer",
+            "description": 'User identifier',
             "example": 1
           },
           "name": {
             "type": "string",
+            "description": 'User name',
             "example": "Alice Smith"
           },
           "email": {
             "type": "string",
+            "email": 'User emal address',
             "example": "alice@example.com"
           }
         },
-        "required": ["id", "name", "email"]
+        "required": ["id", "name"]
       },
       "NewUser": {
         "type": "object",
