@@ -30,13 +30,13 @@
                   {
                     "id": 1,
                     "name": "Alice Smith",
-                    "description": 'User identifier',
+                    
                     "email": "alice@example.com"
                   },
                   {
                     "id": 2,
                     "name": "Bob Johnson",
-                    "description": 'User name',
+                   
                     "email": "bob@example.com"
                   }
                 ]
@@ -84,26 +84,27 @@
   },
   "components": {
     "schemas": {
-      "User": {
+"User": {
+        "required": [
+          "name"
+        ],
         "type": "object",
         "properties": {
-          "id": {
-            "type": "integer",
-            "description": 'User identifier',
-            "example": 1
+                    "id": {
+            "description": "ID of the user",
+            "type": "int64",
+            "required": true
           },
+
           "name": {
-            "type": "string",
-            "description": 'User name',
-            "example": "Alice Smith"
+            "description": "The name of the user",
+            "type": "string"
           },
           "email": {
-            "type": "string",
-            "email": 'User emal address',
-            "example": "alice@example.com"
+            "description": "address",
+            "type": "string"
           }
-        },
-        "required": ["id", "name"]
+        }
       },
       "NewUser": {
         "type": "object",
