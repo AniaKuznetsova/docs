@@ -53,7 +53,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewUser"
+                "$ref": "#/components/schemas/Plant"
               },
               "example": {
                 "name": "Charlie Brown",
@@ -68,7 +68,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/User"
+                  "$ref": "#/components/schemas/Plant"
                 },
                 "example": {
                   "id": 3,
@@ -124,6 +124,22 @@
           },
           "email": {
             "description": "address",
+            "type": "string"
+          }
+        }
+      },
+      "Plant": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "description": "The name of the plant",
+            "type": "string"
+          },
+          "tag": {
+            "description": "Tag to specify the type",
             "type": "string"
           }
         }
