@@ -53,7 +53,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Plant"
+                "$ref": "#/components/schemas/NewUser"
               },
               "example": {
                 "name": "Charlie Brown",
@@ -68,7 +68,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Plant"
+                  "$ref": "#/components/schemas/NewUser"
                 },
                 "example": {
                   "id": 3,
