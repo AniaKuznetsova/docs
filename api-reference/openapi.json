@@ -127,7 +127,7 @@
             "type": "string"
           }
         }
-      },
+      }
     },
     "securitySchemes": {
       "bearerAuth": {
