@@ -47,7 +47,7 @@
       },
       "post": {
         "summary": "Create a user",
-        "description": "Creates a new user in the system",
+        "description": "Creates a new user",
         "requestBody": {
           "required": true,
           "content": {
