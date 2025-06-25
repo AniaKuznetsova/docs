@@ -54,11 +54,8 @@
             "application/json": {
               "schema": {
                 "$ref": "#/components/schemas/NewUser"
-              },
-              "example": {
-                "name": "Charlie Brown",
-                "email": "charlie@example.com"
               }
+              
             }
           }
         },
@@ -69,12 +66,8 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/NewUser"
-                },
-                "example": {
-                  "id": 3,
-                  "name": "Charlie Brown",
-                  "email": "charlie@example.com"
                 }
+             
               }
             }
           }
