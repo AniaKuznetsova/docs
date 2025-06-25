@@ -85,27 +85,21 @@
   "components": {
     "schemas": {
 "NewUser": {
-        "required": [
-          "name"
-        ],
-        "type": "object",
-        "properties": {
-                    "id": {
-            "description": "ID of the user",
-            "type": "int64",
-            "required": true
-          },
-
-          "name": {
-            "description": "The name of the user",
-            "type": "string"
-          },
-          "email": {
-            "description": "address",
-            "type": "string"
-          }
-        }
-      },
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Full name of the user",
+      "example": "Charly Brown"
+    },
+    "email": {
+      "type": "string",
+      "description": "Email address of the user",
+      "example": "charly@example.com"
+    }
+  },
+  "required": ["name", "email"]
+}
 "User": {
         "required": [
           "name"
