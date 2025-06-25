@@ -84,6 +84,28 @@
   },
   "components": {
     "schemas": {
+"NewUser": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+                    "id": {
+            "description": "ID of the user",
+            "type": "int64",
+            "required": true
+          },
+
+          "name": {
+            "description": "The name of the user",
+            "type": "string"
+          },
+          "email": {
+            "description": "address",
+            "type": "string"
+          }
+        }
+      },
 "User": {
         "required": [
           "name"
@@ -106,23 +128,6 @@
           }
         }
       },
-      "NewUser": {
-        "type": "object",
-        "properties": {
-          "name": {
-            "type": "string",
-            "required": false,
-            "description": "User name",
-            "example": "Charlie Brown"
-          },
-          "email": {
-            "type": "string",
-            "description": "User address",
-            "example": "charlie@example.com"
-          }
-        },
-        "required": ["name", "email"]
-      }
     },
     "securitySchemes": {
       "bearerAuth": {
