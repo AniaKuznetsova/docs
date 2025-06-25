@@ -112,12 +112,12 @@
           "name": {
             "type": "string",
             "required": false,
-            "description": 'User name',
+            "description": "User name",
             "example": "Charlie Brown"
           },
           "email": {
             "type": "string",
-            "description": 'User address',
+            "description": "User address",
             "example": "charlie@example.com"
           }
         },

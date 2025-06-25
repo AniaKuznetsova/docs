@@ -68,7 +68,7 @@
             "application/json": {
               "schema": {
                 "$ref": "#/components/schemas/NewPlant"
-              },
+              }
                 
           },
           "required": true
@@ -214,7 +214,7 @@
         "type": "http",
         "scheme": "bearer"
       }
-    },
+    }
     
   }
-}
+} }
