@@ -46,7 +46,7 @@
                 
           {
             "group": "Endpoint Examples",
-            "openapi": "docs/api-reference/openapi.json",
+            "openapi": "api-reference/openapi3.json",
             "pages": [
  
               "api-reference/endpoint/get-users", 
