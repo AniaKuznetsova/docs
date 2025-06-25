@@ -43,19 +43,15 @@
               "api-reference/introduction"
             ]
           },
-                
           {
             "group": "Endpoint Examples",
             "pages": [
- 
-              "api-reference/endpoint/get-users", 
-              "api-reference/endpoint/create-user"
-              
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
             ]
           }
-          
-           
-          
         ]
       }
     ],
@@ -102,17 +98,5 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
-  },
-  
- "api": {
-   "playground": {
-     "display": "interactive"
-   },
-   "examples": {
-     "languages": ["curl", "python", "javascript"],
-     "defaults": "all"
-   }
- }
-
-  
+  }
 }
