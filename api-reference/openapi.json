@@ -29,15 +29,15 @@
                 "example": [
                   {
                     "id": 1,
-                    "name": "Alice Smith",
+                    "name": "Alica Smith",
                     
-                    "email": "alice@example.com"
+                    "email": "alica@example.com"
                   },
                   {
                     "id": 2,
-                    "name": "Bob Johnson",
+                    "name": "Bobby Johnson",
                    
-                    "email": "bob@example.com"
+                    "email": "bobby@example.com"
                   }
                 ]
               }
